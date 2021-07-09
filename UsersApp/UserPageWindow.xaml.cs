@@ -28,5 +28,10 @@ namespace UsersApp
 
             listOfUsers.ItemsSource = users;
         }
+
+        private void Button_Out_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

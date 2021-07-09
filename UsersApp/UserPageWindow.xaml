@@ -26,6 +26,7 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
+                <Button Content="Выход" Margin="0 20" Click="Button_Out_Click" />
             </StackPanel>
         </Border>
     </Grid>
