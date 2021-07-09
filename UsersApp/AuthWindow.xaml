@@ -12,7 +12,7 @@
             <EventTrigger.Actions>
                 <BeginStoryboard>
                     <Storyboard TargetProperty="Width" TargetName="authButton">
-                        <DoubleAnimation From="200" To="450" 
+                        <DoubleAnimation From="200" To="490" 
                                          Duration="0:0:1">
                         </DoubleAnimation>
                     </Storyboard>
@@ -28,14 +28,10 @@
             <StackPanel>
                 <TextBlock Text="Авторизация" FontSize="30" FontWeight="Bold" Margin="0 0 0 20"></TextBlock>
 
-                <Grid Margin="0 0 0 20">
-                    <Button HorizontalAlignment="Left" Content="Регистрация" Click="Button_Reg_Click"/>
-                    <Button HorizontalAlignment="Right" Content="Войти" Style="{StaticResource MaterialDesignFlatButton}" />
-                </Grid>
-
                 <TextBox x:Name="textBoxLogin"  materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                 <PasswordBox x:Name="passBox" materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" />
                 <Button Content="Войти в кабинет" Margin="0 20" Click="Button_Auth_Click" x:Name="authButton"/>
+                <Button HorizontalAlignment="Center" Content="Регистрация" Click="Button_Reg_Click" Style="{StaticResource MaterialDesignFlatButton}"/>
             </StackPanel>
         </Border>
     </Grid>
