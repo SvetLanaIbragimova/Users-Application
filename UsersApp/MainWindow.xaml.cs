@@ -31,7 +31,7 @@ namespace UsersApp
 
             DoubleAnimation btnAnimation = new DoubleAnimation();
             btnAnimation.From = 150;
-            btnAnimation.To = 450;
+            btnAnimation.To = 490;
             btnAnimation.Duration = TimeSpan.FromSeconds(1);
             regButton.BeginAnimation(Button.WidthProperty, btnAnimation);
         }
